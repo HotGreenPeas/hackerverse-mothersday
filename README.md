@@ -1,20 +1,14 @@
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
 
-<h3 align="center">project_title</h3>
+<h1 align="center">Mechanized Box (Mother's Day Edition)</h3>
 
   <p align="center">
-    project_description
+    When Mother's Day and Hackathons collide.
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://drive.google.com/file/d/1vNFWJrQq5Upu_HsZZiTqHqDMN9ORqA14/view?usp=sharing">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+    <a href="https://github.com/HotGreenPeas/hackerverse-mothersday/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/HotGreenPeas/hackerverse-mothersday/issues">Request Feature</a>
   </p>
 </div>
 
@@ -37,8 +31,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -47,74 +39,40 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+What is there to say? This is a box that opens when someone comes near. Put the appropiate item inside for the appropiate occasion.
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
+For Mother's Day...
+<p align="center">
+<img src="https://user-images.githubusercontent.com/43543240/167298277-dd9cdd34-32ce-45ad-9d3d-e9684dcd4d32.jpg" alt="drawing" width="300"/>
+</p>
 
 ### Built With
 
 * [Arduino](https://www.arduino.cc/)
 
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+You should always avoid powering servos with the Arduino board itself as they draw more current than the board can safely handle. In my case, I used a separate power board to supply 5V. You also avoid having to use capacitors and transistors. For the servos, they can share the same signal wire becuase they are suppose to be in sync.
 
-Circuit Diagram
-![image](https://user-images.githubusercontent.com/43543240/167297058-f4dbc709-33d7-4bee-abfd-eefb4c83c455.png)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/43543240/167297058-f4dbc709-33d7-4bee-abfd-eefb4c83c455.png" alt="drawing" width="600"/>
+</p>
 
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+- Have the necessary circuit components (servos, Arduino, USB cables, jumper wires, etc)
+- Have an Arduino IDE installed.
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. 
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
+1. Download the code [here](https://raw.githubusercontent.com/HotGreenPeas/hackerverse-mothersday/main/Open_Box.ino)
+2. Upload the code to the Arduino. Make sure to select the right board and COM port.
 
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/repo_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/repo_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/repo_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/repo_name/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
-
+Use this as a cool way to present an object; it's a box that unboxes itself; it's a gift that unwraps itself.
 
